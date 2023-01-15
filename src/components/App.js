@@ -4,7 +4,7 @@ import '../styles/App.css';
 const App = () => {
 const [state,dispatch] = useReducer(counterReducer,{/*initial state to be placed here*/})
   return (
-    <div id="main">
+    <div id="main" button>
 
     </div>
   )
